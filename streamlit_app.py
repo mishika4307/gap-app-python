@@ -52,7 +52,7 @@ def process_file(uploaded_file, company):
     return df
 
 def main():
-    st.title("Pricing Calculator - Batch Processing")
+    st.title("Fisher & Paykel Pricing Calculator for GAP Cin7 & ASW Portal")
     
     company = st.radio("Select Company:", ["GAP & SOS", "ASW"])
     uploaded_file = st.file_uploader("Upload Excel File", type=["xlsx"])
